@@ -12,7 +12,9 @@
    Paste the below content and save it
    
    'FROM centos:centos7
+   
     RUN yum update -y
+    
     CMD ["echo", "Hello, Welcome to Devops-World"]'
 
 ## Build Customized Docker Image from Dockerfile
@@ -23,4 +25,5 @@
    
 ## After running container
    It should give below output
+   
     Hello, Welcome to Devops-World
