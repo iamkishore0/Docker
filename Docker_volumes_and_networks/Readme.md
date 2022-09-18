@@ -24,6 +24,10 @@
    
 ## Change Containers Network
    Disconnect from existing network
+   
    'docker network disconnect <network_id> <container_id>'
+   
+   
    Attach new network
+   
    'docker network connect <network_id> <container_id>'
