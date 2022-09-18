@@ -11,11 +11,11 @@
    Create a file called 'Dockerfile'
    Paste the below content and save it
    
-   'FROM centos:centos7
+    'FROM centos:centos7
    
-    RUN yum update -y
+     RUN yum update -y
     
-    CMD ["echo", "Hello, Welcome to Devops-World"]'
+     CMD ["echo", "Hello, Welcome to Devops-World"]'
 
 ## Build Customized Docker Image from Dockerfile
    'docker build -t myfirstimage .'
