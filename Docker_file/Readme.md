@@ -1,9 +1,14 @@
 ## Dockerfile Basics
   FROM - Imports Base image from docker hub
+  
   COPY - Copies content to docker image 
+  
   ENV - Sets environment variables
+  
   RUN - Runs commands in image
+  
   CMD - Runs commands while creating container 
+  
   Expose - Expose image to particular port
   
   
