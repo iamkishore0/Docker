@@ -32,8 +32,11 @@
    Run Mutiple jenkins containers in multiple ports
    
    'docker run -itd -p 9000:8080 jenkins/jenkins:lts' - Container will run on 9000 port
+   
    'docker run -itd -p 8090:8080 jenkins/jenkins:lts' - Container will run on 8090 port
+   
    'docker run -itd -p 8082:8080 jenkins/jenkins:lts' - Container will run on 8082 port
+   
    'docker run -itd -p 1234:8080 jenkins/jenkins:lts' - Container will run on 1234 port
 
 ## Restart a Docker container
