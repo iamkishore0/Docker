@@ -1,5 +1,6 @@
 ## Execute your first docker file
-  Create a File called docker-compose.yml & edit that file paste the below yaml configuration file and save it
+  Create a File called docker-compose.yml & edit that file paste the content from link and save it
+  
    https://github.com/iamkishore0/Docker/blob/main/Docker_Compose/docker-compose.yml
       
       
