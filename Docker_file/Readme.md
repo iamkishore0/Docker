@@ -9,7 +9,7 @@
   
   CMD - Runs commands while creating container 
   
-  Expose - Expose image to particular port
+  EXPOSE - Expose image to particular port
   
   
 ## Create your first docker file
