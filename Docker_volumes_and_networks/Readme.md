@@ -14,7 +14,7 @@
    **NETWORKS**
    
 ## Create a network
-   'docker network create <network_name> --subnet=198.19.0.0/16'
+   'docker network create <network_name>'
    
 ## Check networks
    'docker network ls'
