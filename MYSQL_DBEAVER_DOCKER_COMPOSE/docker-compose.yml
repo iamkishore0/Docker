@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: user123
+      MYSQL_DATABASE: myapp
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - mysql-conf:/etc/mysql/conf.d
+    networks:
+      - mynetwork
+
+  dbeaver:
+    image: dbeaver/cloudbeaver:latest
+    ports:
+      - "8081:8978"
+    networks:
+      - mynetwork
+
+volumes:
+  mysql-data:
+  mysql-conf:
+
+networks:
+  mynetwork:
+    driver: bridge
