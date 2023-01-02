@@ -20,12 +20,16 @@ services:
     image: dbeaver/cloudbeaver:latest
     ports:
       - "8081:8978"
+    volumes:
+      - cloudbeaver-backup:/opt/cloudbeaver/workspace
+      - cloudbeaver-backup:/opt/cloudbeaver/conf
     networks:
       - mynetwork
 
 volumes:
   mysql-data:
   mysql-conf:
+  cloudbeaver-backup:
 
 networks:
   mynetwork:
