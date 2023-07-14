@@ -61,5 +61,5 @@
 ## Login to docker container
     'docker exec -it <container_id> /bin/bash'
    
-## Create a docker image from container
-    'docker commit <container_id> <new_image_name>' 
+## Check docker logs
+    'docker logs <container id>'
