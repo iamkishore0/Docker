@@ -12,6 +12,8 @@ services:
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: "password"
       WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wordpress:/var/www/html
     networks:
       mynetwork:
         
@@ -28,6 +30,7 @@ services:
         
 volumes:
   mysql:
+  wordpress:
 networks:
   mynetwork:
     ipam:
